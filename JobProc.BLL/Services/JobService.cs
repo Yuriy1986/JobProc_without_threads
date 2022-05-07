@@ -20,6 +20,7 @@ namespace JobProc.BLL.Services
             Repo = repository;
         }
 
+
         public string SaveCountImagesAndPeoples(DTOCountImagesAndPeopleViewModel dtoCountImagesAndPeopleViewModel)
         {
             ValidationContext context = new ValidationContext(dtoCountImagesAndPeopleViewModel);
@@ -58,14 +59,14 @@ namespace JobProc.BLL.Services
                 if (!Validator.TryValidateObject(dtoPeopleTimesViewModels[i], context, results, true))
                 {
                     StringBuilder errorMessage = new StringBuilder();
-                    errorMessage.AppendLine("Error in row " + (i+1));
+                    errorMessage.AppendLine("Error in row " + (i + 1));
 
                     foreach (var error in results)
                         errorMessage.AppendLine(error.ErrorMessage);
 
                     return errorMessage.ToString();
                 }
-                peopleTimesModels.Add(new PeopleTimesModel { PeopleTime= dtoPeopleTimesViewModels[i].PeopleTime });
+                peopleTimesModels.Add(new PeopleTimesModel { PeopleTime = dtoPeopleTimesViewModels[i].PeopleTime });
             }
 
             Repo.SavePeopleTimes(peopleTimesModels);

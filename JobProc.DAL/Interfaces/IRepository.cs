@@ -13,5 +13,6 @@ namespace JobProc.DAL.Interfaces
 
         void SavePeopleTimes(List<PeopleTimesModel> peopleTimes);
 
+        List<PeopleTimesModel> GetAllPeopleTimes(out CountImagesAndPeopleModel countImagesAndPeopleModel);
     }
 }

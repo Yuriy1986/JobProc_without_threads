@@ -10,11 +10,11 @@ namespace JobProc.DAL.Repositories
 {
     public class Repository : IRepository
     {
-        private Person Db {get;}
+        private Person Db { get; }
 
         public Repository()
         {
-          this.Db = new Person();
+            this.Db = new Person();
         }
 
 
@@ -32,6 +32,24 @@ namespace JobProc.DAL.Repositories
             {
                 Db.PeopleTimes.Add(item.PeopleTime);
             }
+        }
+
+        public List<PeopleTimesModel> GetAllPeopleTimes(out CountImagesAndPeopleModel countImagesAndPeopleModel)
+        {
+            countImagesAndPeopleModel = new CountImagesAndPeopleModel
+            {
+                CountImages = Db.CountImages,
+                CountPeoples = Db.CountPeoples
+            };
+
+            List<PeopleTimesModel> peopleTimes = new List<PeopleTimesModel>();
+
+            foreach (int item in Db.PeopleTimes)
+            {
+                peopleTimes.Add(new PeopleTimesModel { PeopleTime=item});
+            }
+
+            return peopleTimes;
         }
     }
 }

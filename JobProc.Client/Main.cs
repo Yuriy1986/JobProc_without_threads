@@ -5,22 +5,29 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using JobProc.BLL.DTO;
 using JobProc.BLL.Interfaces;
+
 
 namespace JobProc.Client
 {
     public partial class Main : Form
     {
         private IJobService JobService { get; }
-        public Main(IJobService jobService)
+        private ICalculateService CalculateService { get; }
+
+       // public static int QQQ = 0;
+        public Main(IJobService jobService, ICalculateService calculateService)
         {
             JobService = jobService;
+            CalculateService= calculateService;
             InitializeComponent();
             this.resetButton.Enabled = false;
             this.startButton.Enabled = false;
+          //  QQQ++;
         }
 
         private void FillTimesButton_Click(object sender, EventArgs e)
@@ -111,7 +118,12 @@ namespace JobProc.Client
 
         void Calculate()
         {
-            MessageBox.Show("Calculate");
+            MessageBox.Show(CalculateService.Calculate(true).ToString());
+           // CalculateService.Calculate(true);
+
+
         }
+
+
     }
 }

@@ -14,6 +14,7 @@ namespace JobProc.BLL.Infrastructure
         public ServiceModule(Container container)
         {
             container.Register<IRepository, Repository>();
+
         }
     }
 }

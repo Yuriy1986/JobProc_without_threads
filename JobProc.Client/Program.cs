@@ -35,15 +35,18 @@ namespace JobProc.Client
             new ServiceModule(container);
 
             container.Register<IJobService, JobService>();
+            container.Register<ICalculateService, CalculateService>();
 
             AutoRegisterWindowsForms(container);
-         //    container.Verify();
+            container.Verify();
+
+
             return container;
         }
 
         private static void AutoRegisterWindowsForms(Container container)
         {
-            var types = container.GetTypesToRegister<Form>(typeof(Program).Assembly);
+            var types = container.GetTypesToRegister<Main>(typeof(Program).Assembly);
 
             foreach (var type in types)
             {
