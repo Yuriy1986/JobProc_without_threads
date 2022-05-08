@@ -6,8 +6,9 @@ using System.Windows.Forms;
 using JobProc.BLL.Infrastructure;
 using JobProc.BLL.Interfaces;
 using JobProc.BLL.Services;
-using SimpleInjector;
-using SimpleInjector.Diagnostics;
+
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace JobProc.Client
 {
@@ -24,42 +25,30 @@ namespace JobProc.Client
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            var container = Injector();
+            var host = CreateHostBuilder().Build();
+            ServiceProvider = host.Services;
 
-            Application.Run(container.GetInstance<Main>());
+            Application.Run(ServiceProvider.GetRequiredService<Main>());
         }
 
-        private static Container Injector()
+
+        public static IServiceProvider ServiceProvider { get; private set; }
+        static IHostBuilder CreateHostBuilder()
         {
-            var container = new Container();
-            new ServiceModule(container);
+            IHostBuilder host = Host.CreateDefaultBuilder();
 
-            container.Register<IJobService, JobService>();
-            container.Register<ICalculateService, CalculateService>();
+            host.ConfigureServices((context, services) =>
+                {
+                    services.AddTransient<ICalculateService, CalculateService>();
+                    services.AddTransient<IJobService, JobService>();
+                    services.AddTransient<Main>();
+                });
 
-            AutoRegisterWindowsForms(container);
-            container.Verify();
+            new ServiceModule(host);
 
-
-            return container;
-        }
-
-        private static void AutoRegisterWindowsForms(Container container)
-        {
-            var types = container.GetTypesToRegister<Main>(typeof(Program).Assembly);
-
-            foreach (var type in types)
-            {
-                var registration =
-                Lifestyle.Transient.CreateRegistration(type, container);
-
-                registration.SuppressDiagnosticWarning(
-                    DiagnosticType.DisposableTransientComponent,
-                    "Forms should be disposed by app code; not by the container.");
-
-                container.AddRegistration(type, registration);
-            }
+            return host;
         }
 
     }
 }
+

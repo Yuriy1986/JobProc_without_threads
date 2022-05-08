@@ -9,6 +9,8 @@ using JobProc.DAL.Interfaces;
 using JobProc.DAL.Models;
 using System.ComponentModel.DataAnnotations;
 
+using JobProc.BLL.Infrastructure;//     //////////////////////////////////////
+
 namespace JobProc.BLL.Services
 {
     public class JobService : IJobService
@@ -19,7 +21,6 @@ namespace JobProc.BLL.Services
         {
             Repo = repository;
         }
-
 
         public string SaveCountImagesAndPeoples(DTOCountImagesAndPeopleViewModel dtoCountImagesAndPeopleViewModel)
         {

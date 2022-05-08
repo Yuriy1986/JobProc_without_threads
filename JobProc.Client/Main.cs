@@ -19,7 +19,6 @@ namespace JobProc.Client
         private IJobService JobService { get; }
         private ICalculateService CalculateService { get; }
 
-       // public static int QQQ = 0;
         public Main(IJobService jobService, ICalculateService calculateService)
         {
             JobService = jobService;
@@ -27,7 +26,6 @@ namespace JobProc.Client
             InitializeComponent();
             this.resetButton.Enabled = false;
             this.startButton.Enabled = false;
-          //  QQQ++;
         }
 
         private void FillTimesButton_Click(object sender, EventArgs e)
