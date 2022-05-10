@@ -1,15 +1,11 @@
 ﻿using JobProc.BLL.DTO;
 using JobProc.BLL.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using JobProc.DAL.Interfaces;
 using JobProc.DAL.Models;
 using System.ComponentModel.DataAnnotations;
 
-using JobProc.BLL.Infrastructure;//     //////////////////////////////////////
 
 namespace JobProc.BLL.Services
 {
@@ -22,7 +18,7 @@ namespace JobProc.BLL.Services
             Repo = repository;
         }
 
-        public string SaveCountImagesAndPeoples(DTOCountImagesAndPeopleViewModel dtoCountImagesAndPeopleViewModel)
+        public string SaveCountImagesAndPeople(DTOCountImagesAndPeopleViewModel dtoCountImagesAndPeopleViewModel)
         {
             ValidationContext context = new ValidationContext(dtoCountImagesAndPeopleViewModel);
             List<ValidationResult> results = new List<ValidationResult>();
@@ -40,7 +36,7 @@ namespace JobProc.BLL.Services
             CountImagesAndPeopleModel countImagesAndPeopleModel = new CountImagesAndPeopleModel
             {
                 CountImages = dtoCountImagesAndPeopleViewModel.CountImages,
-                CountPeoples = dtoCountImagesAndPeopleViewModel.CountPeoples
+                CountPeople = dtoCountImagesAndPeopleViewModel.CountPeople
             };
 
             Repo.SaveCountImagesAndPeople(countImagesAndPeopleModel);

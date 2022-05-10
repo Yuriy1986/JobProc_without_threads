@@ -1,10 +1,7 @@
 ﻿using JobProc.DAL.Interfaces;
 using JobProc.DAL.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace JobProc.DAL.Repositories
 {
@@ -21,17 +18,13 @@ namespace JobProc.DAL.Repositories
         public void SaveCountImagesAndPeople(CountImagesAndPeopleModel countImagesAndPeopleModel)
         {
             Db.CountImages = countImagesAndPeopleModel.CountImages;
-            Db.CountPeoples = countImagesAndPeopleModel.CountPeoples;
+            Db.CountPeople = countImagesAndPeopleModel.CountPeople;
         }
 
         public void SavePeopleTimes(List<PeopleTimesModel> peopleTimes)
         {
             Db.PeopleTimes.Clear();
-
-            foreach (var item in peopleTimes)
-            {
-                Db.PeopleTimes.Add(item.PeopleTime);
-            }
+            Db.PeopleTimes.AddRange(peopleTimes.Select(x=>x.PeopleTime));
         }
 
         public List<PeopleTimesModel> GetAllPeopleTimes(out CountImagesAndPeopleModel countImagesAndPeopleModel)
@@ -39,7 +32,7 @@ namespace JobProc.DAL.Repositories
             countImagesAndPeopleModel = new CountImagesAndPeopleModel
             {
                 CountImages = Db.CountImages,
-                CountPeoples = Db.CountPeoples
+                CountPeople = Db.CountPeople
             };
 
             List<PeopleTimesModel> peopleTimes = new List<PeopleTimesModel>();

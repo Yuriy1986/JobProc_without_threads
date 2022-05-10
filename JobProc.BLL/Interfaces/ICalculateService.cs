@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using JobProc.BLL.DTO;
 
 namespace JobProc.BLL.Interfaces
 {
     public interface ICalculateService
     {
-        int Calculate(bool fastCalculation);
+        DTOResultViewModel Calculate(bool fastCalculation);
     }
 }

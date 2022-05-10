@@ -1,12 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using JobProc.BLL.DTO;
 using JobProc.BLL.Interfaces;
@@ -22,8 +16,9 @@ namespace JobProc.Client
         public Main(IJobService jobService, ICalculateService calculateService)
         {
             JobService = jobService;
-            CalculateService= calculateService;
+            CalculateService = calculateService;
             InitializeComponent();
+            fastCalculation.Checked=true;
             this.resetButton.Enabled = false;
             this.startButton.Enabled = false;
         }
@@ -33,13 +28,13 @@ namespace JobProc.Client
             int.TryParse(countImages.Text, out int dtocountImages);
             int.TryParse(countPeople.Text, out int dtocountPeople);
 
-            DTOCountImagesAndPeopleViewModel dTOCountImagesAndPeoplesViewModel = new DTOCountImagesAndPeopleViewModel()
+            DTOCountImagesAndPeopleViewModel dTOCountImagesAndPeopleViewModel = new DTOCountImagesAndPeopleViewModel()
             {
                 CountImages = dtocountImages,
-                CountPeoples = dtocountPeople
+                CountPeople = dtocountPeople
             };
 
-            string response = JobService.SaveCountImagesAndPeoples(dTOCountImagesAndPeoplesViewModel);
+            string response = JobService.SaveCountImagesAndPeople(dTOCountImagesAndPeopleViewModel);
 
             if (response != "")
             {
@@ -96,7 +91,11 @@ namespace JobProc.Client
                 return;
             }
             else
+            {
+                MainGroupBox.Enabled = false;
+
                 Calculate();
+            }
         }
 
         private void ResetButton_Click(object sender, EventArgs e)
@@ -114,14 +113,25 @@ namespace JobProc.Client
             MessageBox.Show("Only digits are required");
         }
 
-        void Calculate()
+        private void Calculate()
         {
-            MessageBox.Show(CalculateService.Calculate(true).ToString());
-           // CalculateService.Calculate(true);
+            DTOResultViewModel result = CalculateService.Calculate(fastCalculation.Checked);
 
+            StringBuilder message = new StringBuilder();
 
+            DateTime timeElapsed=new DateTime(result.Ticks);
+
+            message.AppendLine("Time elapsed " + timeElapsed.ToString("HH:mm:ss:fff") + "\n");
+
+            for (int i = 0; i < result.PeoplesCountOfImages.Length; i++)
+            {
+                message.AppendLine("Person "+(i+1) + "-"  + result.PeoplesCountOfImages[i]);
+            }
+
+            MessageBox.Show(message.ToString());
+
+            MainGroupBox.Enabled = true;
         }
-
 
     }
 }
