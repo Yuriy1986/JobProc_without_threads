@@ -29,8 +29,9 @@ namespace JobProc.Client
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.MainGroupBox = new System.Windows.Forms.GroupBox();
+            this.fastCalculation = new System.Windows.Forms.CheckBox();
             this.resetButton = new System.Windows.Forms.Button();
             this.startButton = new System.Windows.Forms.Button();
             this.fillTimesButton = new System.Windows.Forms.Button();
@@ -39,7 +40,6 @@ namespace JobProc.Client
             this.label1 = new System.Windows.Forms.Label();
             this.countImages = new System.Windows.Forms.MaskedTextBox();
             this.dataGridTimes = new System.Windows.Forms.DataGridView();
-            this.fastCalculation = new System.Windows.Forms.CheckBox();
             this.MainGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridTimes)).BeginInit();
             this.SuspendLayout();
@@ -62,6 +62,16 @@ namespace JobProc.Client
             this.MainGroupBox.TabIndex = 0;
             this.MainGroupBox.TabStop = false;
             this.MainGroupBox.Text = "Choose count images and people";
+            // 
+            // fastCalculation
+            // 
+            this.fastCalculation.AutoSize = true;
+            this.fastCalculation.Location = new System.Drawing.Point(16, 58);
+            this.fastCalculation.Name = "fastCalculation";
+            this.fastCalculation.Size = new System.Drawing.Size(343, 19);
+            this.fastCalculation.TabIndex = 7;
+            this.fastCalculation.Text = "fastCalculation (true calculate in seconds, false - in minutes)";
+            this.fastCalculation.UseVisualStyleBackColor = true;
             // 
             // resetButton
             // 
@@ -136,14 +146,14 @@ namespace JobProc.Client
             this.dataGridTimes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Maroon;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridTimes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridTimes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridTimes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridTimes.Location = new System.Drawing.Point(12, 105);
             this.dataGridTimes.Name = "dataGridTimes";
@@ -151,16 +161,6 @@ namespace JobProc.Client
             this.dataGridTimes.Size = new System.Drawing.Size(776, 333);
             this.dataGridTimes.TabIndex = 1;
             this.dataGridTimes.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.DataGridTimes_DataError);
-            // 
-            // fastCalculation
-            // 
-            this.fastCalculation.AutoSize = true;
-            this.fastCalculation.Location = new System.Drawing.Point(16, 58);
-            this.fastCalculation.Name = "fastCalculation";
-            this.fastCalculation.Size = new System.Drawing.Size(343, 19);
-            this.fastCalculation.TabIndex = 7;
-            this.fastCalculation.Text = "fastCalculation (true calculate in seconds, false - in minutes)";
-            this.fastCalculation.UseVisualStyleBackColor = true;
             // 
             // Main
             // 
@@ -170,7 +170,7 @@ namespace JobProc.Client
             this.Controls.Add(this.dataGridTimes);
             this.Controls.Add(this.MainGroupBox);
             this.Name = "Main";
-            this.Text = "Form1";
+            this.Text = "Main";
             this.MainGroupBox.ResumeLayout(false);
             this.MainGroupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridTimes)).EndInit();
