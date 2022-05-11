@@ -4,7 +4,8 @@
 - .NET 5.0;
 - three-layer architecture;
 - Microsoft.Extensions.DependencyInjection;
-- Windows Forms.
+- Windows Forms;
+- Xunit.
 
   Task:
 A job of 1000 images is going to be edited by a crew of 3 people:
