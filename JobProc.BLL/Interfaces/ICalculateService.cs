@@ -4,6 +4,6 @@ namespace JobProc.BLL.Interfaces
 {
     public interface ICalculateService
     {
-        DTOResultViewModel Calculate(bool fastCalculation);
+        DTOResultViewModel Calculate();
     }
 }

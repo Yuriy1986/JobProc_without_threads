@@ -1,0 +1,165 @@
+D:\Программирование\JobProc\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.csproj.AssemblyReference.cache
+D:\Программирование\JobProc\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.csproj.GenerateResource.cache
+D:\Программирование\JobProc\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\Программирование\JobProc\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.AssemblyInfoInputs.cache
+D:\Программирование\JobProc\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.AssemblyInfo.cs
+D:\Программирование\JobProc\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.csproj.CoreCompileInputs.cache
+D:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.exe
+D:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.deps.json
+D:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.runtimeconfig.json
+D:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.runtimeconfig.dev.json
+D:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.dll
+D:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.pdb
+D:\Программирование\JobProc\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.Main.resources
+D:\Программирование\JobProc\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.dll
+D:\Программирование\JobProc\JobProc.Client\obj\Debug\net5.0-windows\ref\JobProc.Client.dll
+D:\Программирование\JobProc\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.pdb
+D:\Программирование\JobProc\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.genruntimeconfig.cache
+D:\Программирование\JobProc\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.csproj.CopyComplete
+D:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\JobProc.BLL.dll
+D:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\JobProc.DAL.dll
+D:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\JobProc.BLL.pdb
+D:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\JobProc.DAL.pdb
+d:\Программирование\JobProc\JobProc.Client\obj\Debug\net5.0-windows\refint\JobProc.Client.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.CommandLine.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Json.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Hosting.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Console.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Debug.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.EventLog.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.EventSource.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\System.Diagnostics.EventLog.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\System.Runtime.CompilerServices.Unsafe.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\System.Text.Encodings.Web.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\System.Text.Json.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Diagnostics.EventLog.Messages.dll
+d:\Программирование\JobProc\JobProc.Client\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Diagnostics.EventLog.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.exe
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.deps.json
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.runtimeconfig.json
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.runtimeconfig.dev.json
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.pdb
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.CommandLine.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Json.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Hosting.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Console.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Debug.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.EventLog.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.EventSource.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\System.Diagnostics.EventLog.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\System.Runtime.CompilerServices.Unsafe.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\System.Text.Encodings.Web.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\System.Text.Json.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Diagnostics.EventLog.Messages.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Diagnostics.EventLog.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.BLL.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.DAL.dll
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.BLL.pdb
+c:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.DAL.pdb
+c:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.csproj.AssemblyReference.cache
+c:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.Main.resources
+c:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.csproj.GenerateResource.cache
+c:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.GeneratedMSBuildEditorConfig.editorconfig
+c:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.AssemblyInfoInputs.cache
+c:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.AssemblyInfo.cs
+c:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.csproj.CoreCompileInputs.cache
+c:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.csproj.CopyComplete
+c:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.dll
+c:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\refint\JobProc.Client.dll
+c:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.pdb
+c:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.genruntimeconfig.cache
+c:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\ref\JobProc.Client.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.exe
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.deps.json
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.runtimeconfig.json
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.runtimeconfig.dev.json
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\ref\JobProc.Client.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.Client.pdb
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.CommandLine.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Json.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Hosting.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Console.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Debug.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.EventLog.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.EventSource.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\System.Diagnostics.EventLog.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\System.Runtime.CompilerServices.Unsafe.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\System.Text.Encodings.Web.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\System.Text.Json.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Diagnostics.EventLog.Messages.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Diagnostics.EventLog.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.BLL.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.DAL.dll
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.BLL.pdb
+d:\JobProc (без потоков)\JobProc.Client\bin\Debug\net5.0-windows\JobProc.DAL.pdb
+d:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.csproj.AssemblyReference.cache
+d:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.Main.resources
+d:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.csproj.GenerateResource.cache
+d:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.GeneratedMSBuildEditorConfig.editorconfig
+d:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.AssemblyInfoInputs.cache
+d:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.AssemblyInfo.cs
+d:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.csproj.CoreCompileInputs.cache
+d:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.csproj.CopyComplete
+d:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.dll
+d:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\ref\JobProc.Client.dll
+d:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.pdb
+d:\JobProc (без потоков)\JobProc.Client\obj\Debug\net5.0-windows\JobProc.Client.genruntimeconfig.cache

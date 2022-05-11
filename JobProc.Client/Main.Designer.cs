@@ -31,7 +31,6 @@ namespace JobProc.Client
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.MainGroupBox = new System.Windows.Forms.GroupBox();
-            this.fastCalculation = new System.Windows.Forms.CheckBox();
             this.resetButton = new System.Windows.Forms.Button();
             this.startButton = new System.Windows.Forms.Button();
             this.fillTimesButton = new System.Windows.Forms.Button();
@@ -48,7 +47,6 @@ namespace JobProc.Client
             // 
             this.MainGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.MainGroupBox.Controls.Add(this.fastCalculation);
             this.MainGroupBox.Controls.Add(this.resetButton);
             this.MainGroupBox.Controls.Add(this.startButton);
             this.MainGroupBox.Controls.Add(this.fillTimesButton);
@@ -58,20 +56,10 @@ namespace JobProc.Client
             this.MainGroupBox.Controls.Add(this.countImages);
             this.MainGroupBox.Location = new System.Drawing.Point(12, 12);
             this.MainGroupBox.Name = "MainGroupBox";
-            this.MainGroupBox.Size = new System.Drawing.Size(776, 87);
+            this.MainGroupBox.Size = new System.Drawing.Size(776, 54);
             this.MainGroupBox.TabIndex = 0;
             this.MainGroupBox.TabStop = false;
             this.MainGroupBox.Text = "Choose count images and people";
-            // 
-            // fastCalculation
-            // 
-            this.fastCalculation.AutoSize = true;
-            this.fastCalculation.Location = new System.Drawing.Point(16, 58);
-            this.fastCalculation.Name = "fastCalculation";
-            this.fastCalculation.Size = new System.Drawing.Size(343, 19);
-            this.fastCalculation.TabIndex = 7;
-            this.fastCalculation.Text = "fastCalculation (true calculate in seconds, false - in minutes)";
-            this.fastCalculation.UseVisualStyleBackColor = true;
             // 
             // resetButton
             // 
@@ -155,10 +143,10 @@ namespace JobProc.Client
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridTimes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridTimes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridTimes.Location = new System.Drawing.Point(12, 105);
+            this.dataGridTimes.Location = new System.Drawing.Point(12, 72);
             this.dataGridTimes.Name = "dataGridTimes";
             this.dataGridTimes.RowTemplate.Height = 25;
-            this.dataGridTimes.Size = new System.Drawing.Size(776, 333);
+            this.dataGridTimes.Size = new System.Drawing.Size(776, 366);
             this.dataGridTimes.TabIndex = 1;
             this.dataGridTimes.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.DataGridTimes_DataError);
             // 
@@ -189,7 +177,6 @@ namespace JobProc.Client
         private System.Windows.Forms.DataGridView dataGridTimes;
         private System.Windows.Forms.Button startButton;
         private System.Windows.Forms.Button resetButton;
-        private System.Windows.Forms.CheckBox fastCalculation;
     }
 }
 

@@ -1,0 +1,206 @@
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\testhost.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\testhost.exe
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\xunit.runner.reporters.netcoreapp10.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\xunit.runner.utility.netcoreapp10.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\JobProc.Tests.deps.json
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\JobProc.Tests.runtimeconfig.json
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\JobProc.Tests.runtimeconfig.dev.json
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\JobProc.Tests.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\JobProc.Tests.pdb
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.Utilities.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\NuGet.Frameworks.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\xunit.abstractions.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\xunit.assert.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\xunit.core.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\xunit.execution.dotnet.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Программирование\JobProc\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.csproj.AssemblyReference.cache
+D:\Программирование\JobProc\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Программирование\JobProc\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.AssemblyInfoInputs.cache
+D:\Программирование\JobProc\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.AssemblyInfo.cs
+D:\Программирование\JobProc\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.csproj.CoreCompileInputs.cache
+D:\Программирование\JobProc\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.csproj.CopyComplete
+D:\Программирование\JobProc\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.dll
+D:\Программирование\JobProc\JobProc.Tests\obj\Debug\net5.0\refint\JobProc.Tests.dll
+D:\Программирование\JobProc\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.pdb
+D:\Программирование\JobProc\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.genruntimeconfig.cache
+D:\Программирование\JobProc\JobProc.Tests\obj\Debug\net5.0\ref\JobProc.Tests.dll
+d:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\CoverletSourceRootsMapping
+d:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\JobProc.DAL.dll
+d:\Программирование\JobProc\JobProc.Tests\bin\Debug\net5.0\JobProc.DAL.pdb
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\CoverletSourceRootsMapping
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\testhost.exe
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\testhost.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\xunit.runner.reporters.netcoreapp10.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\xunit.runner.utility.netcoreapp10.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\JobProc.Tests.deps.json
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\JobProc.Tests.runtimeconfig.json
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\JobProc.Tests.runtimeconfig.dev.json
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\JobProc.Tests.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\ref\JobProc.Tests.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\JobProc.Tests.pdb
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.Utilities.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\Newtonsoft.Json.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\NuGet.Frameworks.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\xunit.abstractions.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\xunit.assert.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\xunit.core.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\xunit.execution.dotnet.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\JobProc.DAL.dll
+d:\JobProc (без потоков)\JobProc.Tests\bin\Debug\net5.0\JobProc.DAL.pdb
+d:\JobProc (без потоков)\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.csproj.AssemblyReference.cache
+d:\JobProc (без потоков)\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.GeneratedMSBuildEditorConfig.editorconfig
+d:\JobProc (без потоков)\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.AssemblyInfoInputs.cache
+d:\JobProc (без потоков)\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.AssemblyInfo.cs
+d:\JobProc (без потоков)\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.csproj.CoreCompileInputs.cache
+d:\JobProc (без потоков)\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.csproj.CopyComplete
+d:\JobProc (без потоков)\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.dll
+d:\JobProc (без потоков)\JobProc.Tests\obj\Debug\net5.0\ref\JobProc.Tests.dll
+d:\JobProc (без потоков)\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.pdb
+d:\JobProc (без потоков)\JobProc.Tests\obj\Debug\net5.0\JobProc.Tests.genruntimeconfig.cache

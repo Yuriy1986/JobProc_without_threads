@@ -4,9 +4,7 @@ using JobProc.DAL.Interfaces;
 using JobProc.DAL.Models;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Threading;
-using System.Threading.Tasks;
+using System.Linq;
 
 namespace JobProc.BLL.Services
 {
@@ -18,102 +16,93 @@ namespace JobProc.BLL.Services
             Repo = repository;
         }
 
+        // Time of processing
+        private List<PeopleTimesModel> PeopleTimes { get; set; }
 
-        private object Locker { get; set; }
-        private Task[] Tasks { get; set; }
-        private CancellationTokenSource Source { get; set; }
-        private CancellationToken Token { get; set; }
-
-
-        private int[] PeopleTimes { get; set; }
-        private int CountImages { get; set; }
-
-        // Count of images processed by people
-        private int[] UsersCountOfImages { get; set; }
-
-
-        public DTOResultViewModel Calculate(bool fastCalculation)
+        public DTOResultViewModel Calculate()
         {
-            string service_info;
+            // Time of processing
+            PeopleTimes = Repo.GetAllPeopleTimes(out CountImagesAndPeopleModel countImagesAndPeopleModel);
 
-            List<PeopleTimesModel> peopleTimesModels = Repo.GetAllPeopleTimes(out CountImagesAndPeopleModel countImagesAndPeopleModel);
+            int countImages = countImagesAndPeopleModel.CountImages;
+            int countPeople = countImagesAndPeopleModel.CountPeople;
 
-            CountImages = countImagesAndPeopleModel.CountImages;
-            int countPeoples = countImagesAndPeopleModel.CountPeople;
+            // Count of images processed by people
+            int[] usersCountOfImages = new int[countPeople];
 
-            PeopleTimes=new int[countPeoples];
+            int totalProcesingImages = 0;
 
-            //If fastCalculation =true calculate in seconds, else - in minutes)
-            for (int i = 0; i < countPeoples; i++)
+
+            // 1. The first time we go through the cycle (regardless of processing time).
+            for (int j = 0; j < countPeople; j++)
             {
-                PeopleTimes[i] = (fastCalculation ? (peopleTimesModels[i].PeopleTime * 1000) : (peopleTimesModels[i].PeopleTime * 60000));
+                usersCountOfImages[j]++;
+                totalProcesingImages++;
+                // Check whether all the pictures are processed.
+                if (totalProcesingImages == countImages)
+                    return ResultCalculate(usersCountOfImages);
             }
 
-            Source = new CancellationTokenSource();
-            Token = Source.Token;
+            // 2. 
+            int picturesLeft; 
+            picturesLeft = countImages - totalProcesingImages;
 
-            Locker = new object();
+            float totaltimes = 0;
 
-            Tasks = new Task[countPeoples];
-
-            UsersCountOfImages = new int[countPeoples];
-
-            Stopwatch clock = new Stopwatch();
-            clock.Start();
-
-            for (int i = 0; i < countPeoples; i++)
+            foreach (var item in PeopleTimes)
             {
-                StartTasks(i);
+                totaltimes += (float)1 / (item.PeopleTime);
             }
 
-            try
+            for (int i = 0; i < countPeople; i++)
             {
-                Task.WaitAll(Tasks, Token);
-            }
-            catch (Exception ex)
-            {
-                service_info = ex.Message;
+                usersCountOfImages[i] += (int)Math.Floor(1.00 * picturesLeft * (1.00 / PeopleTimes[i].PeopleTime) / totaltimes);
             }
 
-            clock.Stop();
+            totalProcesingImages = usersCountOfImages.Sum();
 
-             DTOResultViewModel dTOResultViewModel = new DTOResultViewModel
+            // 3.
+            if (totalProcesingImages != countImages)
             {
-                Ticks = clock.ElapsedTicks,
-                PeoplesCountOfImages= UsersCountOfImages
-            };
+                Dictionary<int, int> PeopleTimesDictionary = new Dictionary<int, int>();
 
-            return dTOResultViewModel;
-        }
-
-        private void StartTasks(int i)
-        {
-            Tasks[i] = new Task(() => Calculating(i), Token);
-            Tasks[i].Start();
-        }
-        private void Calculating(int index)
-        {
-            while (!Source.IsCancellationRequested)
-            {
-                lock (Locker)
+                for (int i = 0; i < PeopleTimes.Count; i++)
                 {
-                    if (CountImages == 0)
-                    {
-                        Source.Cancel();
-                    }
-                    else
-                    {
-                        CountImages--;
-                        UsersCountOfImages[index]++;
-                    }
+                    PeopleTimesDictionary.Add(i, PeopleTimes[i].PeopleTime);
                 }
 
-                if (!Source.IsCancellationRequested)
-                  Tasks[index].Wait(PeopleTimes[index]);
+                var sortedPeopleTimes = from s in PeopleTimesDictionary orderby s.Value, s.Key select s;    //time, index
+
+                foreach (var item in sortedPeopleTimes)
+                {
+                    usersCountOfImages[item.Key]++;
+                    totalProcesingImages++;
+                    // Check whether all the pictures are processed.
+                    if (totalProcesingImages == countImages)
+                        return ResultCalculate(usersCountOfImages);
+                }
             }
+            return ResultCalculate(usersCountOfImages);
         }
 
+        // 4.
+        private DTOResultViewModel ResultCalculate(int[] usersCountOfImages)
+        {
+            // Total time is the user's longest time.
+            int timeElapsed = 0;
 
+            for (int i = 0; i < usersCountOfImages.Length; i++)
+            {
+                if (timeElapsed < usersCountOfImages[i] * PeopleTimes[i].PeopleTime)
+                    timeElapsed = usersCountOfImages[i] * PeopleTimes[i].PeopleTime;
+            }
 
+            DTOResultViewModel dTOResultViewModel = new DTOResultViewModel
+            {
+                TimeElapsed = timeElapsed,
+                PeoplesCountOfImages = usersCountOfImages
+            };
+            return dTOResultViewModel;
+        }
     }
 }

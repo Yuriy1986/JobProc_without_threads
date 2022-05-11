@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using JobProc.BLL.DTO;
@@ -18,7 +19,6 @@ namespace JobProc.Client
             JobService = jobService;
             CalculateService = calculateService;
             InitializeComponent();
-            fastCalculation.Checked=true;
             this.resetButton.Enabled = false;
             this.startButton.Enabled = false;
         }
@@ -55,7 +55,7 @@ namespace JobProc.Client
             dataGridTimes.AllowUserToAddRows = true;
             dataGridTimes.ColumnCount = 2;
             dataGridTimes.Columns[0].HeaderText = "Number of person";
-            dataGridTimes.Columns[1].HeaderText = "Time of processing";
+            dataGridTimes.Columns[1].HeaderText = "Time of processing (minutes)";
             dataGridTimes.AllowUserToAddRows = false;
             dataGridTimes.AllowUserToDeleteRows = false;
             dataGridTimes.Columns[1].ValueType = typeof(int);
@@ -115,23 +115,23 @@ namespace JobProc.Client
 
         private void Calculate()
         {
-            DTOResultViewModel result = CalculateService.Calculate(fastCalculation.Checked);
+            DTOResultViewModel result = CalculateService.Calculate();
 
             StringBuilder message = new StringBuilder();
 
-            DateTime timeElapsed=new DateTime(result.Ticks);
+            message.AppendLine("Processing time  " + TimeSpan.FromMinutes(result.TimeElapsed).ToString(@"d\ hh\:mm\:ss") + "\n");
 
-            message.AppendLine("Time elapsed " + timeElapsed.ToString("HH:mm:ss:fff") + "\n");
+            // For TEST !!!
+            //message.AppendLine("Total count of images " + result.PeoplesCountOfImages.Sum() + "\n");
 
             for (int i = 0; i < result.PeoplesCountOfImages.Length; i++)
             {
-                message.AppendLine("Person "+(i+1) + "-"  + result.PeoplesCountOfImages[i]);
+                message.AppendLine("Person " + (i + 1) + "-" + result.PeoplesCountOfImages[i]);
             }
 
             MessageBox.Show(message.ToString());
 
             MainGroupBox.Enabled = true;
         }
-
     }
 }

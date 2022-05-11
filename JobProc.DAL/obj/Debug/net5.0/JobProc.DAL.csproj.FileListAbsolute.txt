@@ -1,0 +1,36 @@
+D:\Программирование\JobProc\JobProc.DAL\bin\Debug\net5.0\JobProc.DAL.deps.json
+D:\Программирование\JobProc\JobProc.DAL\bin\Debug\net5.0\JobProc.DAL.dll
+D:\Программирование\JobProc\JobProc.DAL\bin\Debug\net5.0\JobProc.DAL.pdb
+D:\Программирование\JobProc\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Программирование\JobProc\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.AssemblyInfoInputs.cache
+D:\Программирование\JobProc\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.AssemblyInfo.cs
+D:\Программирование\JobProc\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.csproj.CoreCompileInputs.cache
+D:\Программирование\JobProc\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.dll
+D:\Программирование\JobProc\JobProc.DAL\obj\Debug\net5.0\ref\JobProc.DAL.dll
+D:\Программирование\JobProc\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.pdb
+d:\Программирование\JobProc\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.csproj.AssemblyReference.cache
+d:\Программирование\JobProc\JobProc.DAL\obj\Debug\net5.0\refint\JobProc.DAL.dll
+d:\JobProc (без потоков)\JobProc.DAL\bin\Debug\net5.0\JobProc.DAL.deps.json
+d:\JobProc (без потоков)\JobProc.DAL\bin\Debug\net5.0\JobProc.DAL.dll
+d:\JobProc (без потоков)\JobProc.DAL\bin\Debug\net5.0\ref\JobProc.DAL.dll
+d:\JobProc (без потоков)\JobProc.DAL\bin\Debug\net5.0\JobProc.DAL.pdb
+d:\JobProc (без потоков)\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.csproj.AssemblyReference.cache
+d:\JobProc (без потоков)\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.GeneratedMSBuildEditorConfig.editorconfig
+d:\JobProc (без потоков)\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.AssemblyInfoInputs.cache
+d:\JobProc (без потоков)\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.AssemblyInfo.cs
+d:\JobProc (без потоков)\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.csproj.CoreCompileInputs.cache
+d:\JobProc (без потоков)\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.dll
+d:\JobProc (без потоков)\JobProc.DAL\obj\Debug\net5.0\ref\JobProc.DAL.dll
+d:\JobProc (без потоков)\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.pdb
+c:\JobProc (без потоков)\JobProc.DAL\bin\Debug\net5.0\JobProc.DAL.deps.json
+c:\JobProc (без потоков)\JobProc.DAL\bin\Debug\net5.0\JobProc.DAL.dll
+c:\JobProc (без потоков)\JobProc.DAL\bin\Debug\net5.0\JobProc.DAL.pdb
+c:\JobProc (без потоков)\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.csproj.AssemblyReference.cache
+c:\JobProc (без потоков)\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.GeneratedMSBuildEditorConfig.editorconfig
+c:\JobProc (без потоков)\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.AssemblyInfoInputs.cache
+c:\JobProc (без потоков)\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.AssemblyInfo.cs
+c:\JobProc (без потоков)\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.csproj.CoreCompileInputs.cache
+c:\JobProc (без потоков)\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.dll
+c:\JobProc (без потоков)\JobProc.DAL\obj\Debug\net5.0\refint\JobProc.DAL.dll
+c:\JobProc (без потоков)\JobProc.DAL\obj\Debug\net5.0\JobProc.DAL.pdb
+c:\JobProc (без потоков)\JobProc.DAL\obj\Debug\net5.0\ref\JobProc.DAL.dll
