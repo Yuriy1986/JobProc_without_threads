@@ -13,6 +13,7 @@ Task: A job of 1000 images is going to be edited by a crew of 3 people:
 - P3: 1 image per 4 minutes.
 
 Count of pictures and people can be changed. For calculation using special algorithm.
+For the test - uncomment line 125 in main.cs (to check the total count of processed images).
 
 Result:
 - total time;
